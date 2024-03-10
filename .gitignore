@@ -1,0 +1,29 @@
+#
+# .gitignore file - Ignore everything and recursive allow them.
+#
+
+#
+# Ignore everything.
+#
+*
+
+#
+# Recursive allow.
+#
+!.gitignore
+!README.md
+!docker-compose.yml
+!configs
+!README.ssl-certs.md
+!configs/additional-configs.md
+!configs/certs/
+!configs/certs/nextcloud.mydomain.com.crt
+!configs/certs/nextcloud.mydomain.com.key
+!configs/certs/README.md
+!configs/automatic-backup/
+!configs/automatic-backup/nextcloud-deployment-backup.*
+!configs/automatic-backup/README.md
+!configs/nginx/
+!configs/nginx/default.conf
+!configs/backup-and-restore.md
+!configs/upgrading-nextcloud.md
